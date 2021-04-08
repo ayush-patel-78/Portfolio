@@ -140,23 +140,25 @@
                         <h6>541/A, Trimurti nagar, Jabalpur,M.P.</h6>
                     </div>
                 </div>
-                <form action="">
+                <form action="https://formspree.io/f/xdoyopnn" method="POST" id="my-form">
                 <div class="input-wrap">
-                    <input type="text" placeholder="Your Name *">
-                    <input type="Email" placeholder="Your Email *">
+                    <input type="text" placeholder="Your Name *" id="name" name="name">
+                   
+                    <input type="Email" placeholder="Your Email *" id="email" name="email">
                    
                     
                 </div>
                 <div class="input-wrap-2">
-                    <input type="text" placeholder="Your Subject...">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    <input type="text" placeholder="Your Subject..." id="subject" name="subject">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message..."></textarea>
                 </div>
                 <div class="btn-wrapper">
                     <button class="btn btn-primary">Send Message</button>
                 </div>
-                </form>
+            </form>
              
             </div>
+            <div class="my-form-status" id="my-form-status"></div>
         </section>
         <footer>
             <img class="footer-logo" src="./images/logo-2.svg" alt="">
