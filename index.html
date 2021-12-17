@@ -71,7 +71,7 @@
               <h1>
                 I'm a Learner,
                 <br />
-                <span>Coder</span>
+                <span id="typewriter"></span>
               </h1>
               <p>
                 Currently, I am pursuing a B.Tech in Information Technology at
@@ -279,5 +279,18 @@
       src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typewriter', {
+        strings: [
+          'Full Stack Developer',
+          'Competitive Programmer',
+          'UI/UX Designer',
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      })
+    </script>
   </body>
 </html>
